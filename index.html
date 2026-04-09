@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="CourseCompass simplifies the process of finding the best online courses by allowing students to search, filter, and compare options from multiple platforms in one command line interface.">
-    <title>CourseCompass - Your Guide to Online Learning</title>
+    <meta name="description" content="CourseCompass simplifies finding the perfect online course by allowing students to search, filter, and compare options from multiple platforms.">
+    <title>CourseCompass - Find Your Perfect Course</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,128 +14,120 @@
             color: #333;
         }
         header {
-            background-color: #007BFF;
-            color: white;
-            padding: 1rem 0;
+            background: #007bff;
+            color: #fff;
+            padding: 10px 20px;
             text-align: center;
         }
         nav {
             display: flex;
             justify-content: center;
-            padding: 1rem 0;
+            padding: 10px 0;
         }
         nav a {
-            color: white;
+            color: #fff;
             text-decoration: none;
             margin: 0 15px;
             font-weight: bold;
         }
         .hero {
-            background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
-            padding: 80px 20px;
             text-align: center;
-            color: white;
+            padding: 50px 20px;
+            background: #fff;
         }
         .hero h1 {
-            font-size: 3rem;
+            font-size: 2.5em;
             margin: 0;
         }
         .hero p {
-            font-size: 1.5rem;
+            font-size: 1.2em;
+            margin-top: 10px;
+            color: #555;
         }
-        .features, .target-users {
+        .features {
             display: flex;
             justify-content: space-around;
-            flex-wrap: wrap;
-            padding: 20px;
-            max-width: 1200px;
-            margin: auto;
+            padding: 40px 20px;
+            background: #e9ecef;
         }
-        .feature-card, .user-card {
-            background: white;
+        .card {
+            background: #fff;
             border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            margin: 15px;
             padding: 20px;
-            flex: 1 0 30%;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 200px;
             text-align: center;
         }
-        .feature-card h3, .user-card h3 {
-            color: #007BFF;
+        .features h2 {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .target-users {
+            padding: 40px 20px;
+            background: #fff;
+            text-align: center;
+        }
+        .target-users h2 {
+            margin: 20px 0;
         }
         .cta {
-            text-align: center;
-            margin: 40px 0;
-        }
-        .cta button {
-            background-color: #007BFF;
-            color: white;
-            border: none;
+            background: #007bff;
+            color: #fff;
             padding: 15px 30px;
-            font-size: 1.2rem;
+            border: none;
             border-radius: 5px;
+            font-size: 1.2em;
             cursor: pointer;
         }
-        .cta button:hover {
-            background-color: #0056b3;
+        .cta:hover {
+            background: #0056b3;
         }
     </style>
 </head>
 <body>
-
-<header>
-    <nav>
-        <a href="#home">CourseCompass</a>
-    </nav>
-</header>
-
-<section class="hero">
-    <h1>Discover Your Perfect Online Course</h1>
-    <p>Find, filter, and compare courses from various platforms effortlessly.</p>
-</section>
-
-<section class="features">
-    <div class="feature-card">
-        <h3>Course Search</h3>
-        <p>Search for online courses by keywords related to your interests.</p>
-    </div>
-    <div class="feature-card">
-        <h3>Advanced Filtering</h3>
-        <p>Filter courses based on price, rating, duration, and skill level.</p>
-    </div>
-    <div class="feature-card">
-        <h3>Course Comparison</h3>
-        <p>Compare courses side-by-side to find the best fit for you.</p>
-    </div>
-    <div class="feature-card">
-        <h3>User Reviews Aggregation</h3>
-        <p>Get comprehensive views of course quality through aggregated reviews.</p>
-    </div>
-    <div class="feature-card">
-        <h3>Save and Share Lists</h3>
-        <p>Save your favorite courses and share them for feedback.</p>
-    </div>
-</section>
-
-<section class="target-users">
-    <div class="user-card">
-        <h3>Alice Johnson</h3>
-        <p>College Student: Struggles to find relevant online courses that fit her budget and schedule.</p>
-    </div>
-    <div class="user-card">
-        <h3>Mark Thompson</h3>
-        <p>Working Professional: Needs to quickly compare courses to enhance his skills.</p>
-    </div>
-    <div class="user-card">
-        <h3>Sarah Lee</h3>
-        <p>Career Changer: Overwhelmed by the options and unsure which courses are worth the investment.</p>
-    </div>
-</section>
-
-<div class="cta">
-    <h2>Ready to find your perfect course?</h2>
-    <button>Get Started</button>
-</div>
-
+    <header>
+        <h1>CourseCompass</h1>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#target-users">Target Users</a>
+            <a href="#cta">Get Started</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Find Your Perfect Online Course</h1>
+        <p>CourseCompass simplifies the process of finding the perfect online course by allowing students to search, filter, and compare options.</p>
+    </section>
+    <section class="features" id="features">
+        <h2>Features</h2>
+        <div class="card">
+            <h3>Course Search</h3>
+            <p>Search for online courses by keywords, course title, and subject matter.</p>
+        </div>
+        <div class="card">
+            <h3>Advanced Filtering</h3>
+            <p>Filter courses based on price, rating, duration, and skill level.</p>
+        </div>
+        <div class="card">
+            <h3>Course Comparison</h3>
+            <p>Compare selected courses side-by-side to evaluate their features and benefits.</p>
+        </div>
+        <div class="card">
+            <h3>User Reviews Aggregation</h3>
+            <p>Collect and display user ratings and reviews for informed decision-making.</p>
+        </div>
+        <div class="card">
+            <h3>CLI Help</h3>
+            <p>Get help on using the tool effectively with a simple command.</p>
+        </div>
+    </section>
+    <section class="target-users" id="target-users">
+        <h2>Who Can Benefit?</h2>
+        <p><strong>Alice Johnson:</strong> College Student searching for relevant courses that fit her budget.</p>
+        <p><strong>Mark Thompson:</strong> Working Professional with limited time to research courses.</p>
+        <p><strong>Sara Lee:</strong> Career Changer looking for the best courses to acquire new skills.</p>
+    </section>
+    <section style="text-align: center; padding: 40px;">
+        <button class="cta" id="cta">Get Started Now</button>
+    </section>
 </body>
 </html>

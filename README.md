@@ -1,4 +1,1 @@
-﻿# LaunchMind
-**GitHub PR:** https://github.com/karemdanish/launchmind-wolves/pull/7
-
-**Slack Workspace:** https://join.slack.com/t/launchmindglobal/shared_invite/zt-3ulz0yhcn-FvWBORnAKpjV__ea0bbLnQ
+﻿

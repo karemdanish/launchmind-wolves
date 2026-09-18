@@ -4,7 +4,6 @@
 > **University:** FAST National University of Computer & Emerging Sciences, Islamabad  
 >
 > ## Author
-> | Member |
 > |--------|
 > | Danish Karim 
 

@@ -5,7 +5,7 @@
 >
 > ## Author
 > |--------|
-> | Danish Karim 
+> | Danish Karim |
 
 ---
 

@@ -3,12 +3,11 @@
 > **Course:** Agentic AI
 > **University:** FAST National University of Computer & Emerging Sciences, Islamabad  
 >
-> ## Group Members
-> | Member | Roll No |
-> |--------|---------|
-> | Danish Karim | 24I-8076 | 
-> | Sohaib Sulman | 24I-8068 | 
-> | Iqra Bibi | 24I-7626 |
+> ## Author
+> | Member |
+> |--------|
+> | Danish Karim 
+
 ---
 
 ## Project Description
